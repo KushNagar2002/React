@@ -1,1 +1,1 @@
-# Namaster React🚀
+# Namaste React🚀
