@@ -52,4 +52,7 @@
         -> We can import this how named import works
     - useEffect() 
         -> Use effect will be called with the 2 arguments which is (callback function) and (Dependency).
-        -> It will first render the whole component then it will render itself.  
+        -> It will first render the whole component then it will render itself.
+
+# Conditional Rendering
+- Rendering on the basis of condition (Ex: While the page is loading, display Shimmer)
