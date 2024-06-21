@@ -62,3 +62,8 @@
     margin: 10px;
     background-color: #979797;
 }
+
+.login {
+    padding: 0 20px;
+    cursor: pointer;
+}
