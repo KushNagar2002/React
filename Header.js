@@ -17,7 +17,7 @@ const Header = () => {
                     <li>Contact Us</li>
                     <li>Cart</li>
                     <button className="login" onClick={() => {
-                        update("Logout");
+                        btn === "Login" ? update("Logout") : update("Login");
                     } } >{btn}</button>
                 </ul>
             </div>
