@@ -54,5 +54,19 @@
         -> Use effect will be called with the 2 arguments which is (callback function) and (Dependency).
         -> It will first render the whole component then it will render itself.
 
+# Fetch() is given by browsers not from javascript.
+
 # Conditional Rendering
 - Rendering on the basis of condition (Ex: While the page is loading, display Shimmer)
+
+# Ternary Operator 
+- It is a shorthand for the "if-else" statement. Its syntax is:
+    - condition ? expressionIfTrue : expressionIfFalse
+
+# For login button, Whole function is getting called again (Ex: Write console.log("Header Render) in header function then in console we can see that how many times we have clicked on the button) 
+
+# When state variable updates, react triggers a reconciliation cycle (re-renders the component).
+
+# Virtual DOM is the object representatin of JSX (Actual DOM).
+
+# React fiber (The New Reconciliation Algorithm) which finds out the difference between 2 virtual DOM and updates only the portion that is required. [That is why REACT is Fast.]
